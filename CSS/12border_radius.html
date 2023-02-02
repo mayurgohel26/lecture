@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: blue;
+            border-radius: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1{
+            border: 3px solid green;
+            width: 200px;
+            border-top-left-radius: 20px;
+            /* border-bottom-left-radius: 20px; */
+            border-bottom-right-radius: 20px;
+            text-align: center;
+        }
+        .name{
+            border: none;
+            border-bottom: 3px solid;
+            outline: none;
+        }
+        h2{
+            border: 10px solid transparent;
+            border-image: url(./borderimage.png) 20 20 round;
+            text-align: center;
+            /* border-image: url(./borderimage.png)20 20 stretch; */
+        }
+    </style>
+</head>
+<body>
+    <div>Good Morning</div>
+    <br>
+    <h1>Welcome</h1>
+
+    <br><hr>
+    Name:
+    <input type="text" class="name">
+
+    <h2>This is border image</h2>
+</body>
+</html>

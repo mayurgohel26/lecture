@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+        p::first-line{
+            background-color: aquamarine;
+        }
+        p::selection{
+            background-color: yellow;
+            color: red;
+        }
+        h1::before{
+            content: 'Good ';
+        }    
+        h1::after{
+            content: ' have a nice day!';
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias aspernatur, modi perspiciatis iusto maiores, molestiae quo vero quae repudiandae veniam nisi consequuntur nesciunt praesentium officiis, nulla nihil saepe ab. Voluptates.</p>
+    <hr>
+    <h1>Morning</h1>
+</body>
+</html>

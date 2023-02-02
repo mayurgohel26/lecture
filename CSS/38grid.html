@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: blue;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /* grid-template-columns: 50px 120px auto auto; */
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+        .sub {
+            background-color: aqua;
+            padding: 20px;
+            /* width: 200px; */
+            /* height: 200px; */
+        }
+        .one {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub one">One</div>
+        <div class="sub">Two</div>
+        <div class="sub">Three</div>
+        <div class="sub">Four</div>
+        <div class="sub">Five</div>
+        <div class="sub">Six</div>
+    </div>
+</body>
+</html>

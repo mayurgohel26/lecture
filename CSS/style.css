@@ -1,0 +1,13 @@
+h3{
+    color: aqua;
+    font-size: 30px;
+    background-color: blue;
+    width: 200px;
+    text-align: center;
+}
+a{
+    font-size: 30px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+     .navbar{
+        overflow: hidden;
+        background-color: crimson;
+     }
+     .navbar a{
+        float: left;
+        font-size: 16px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 16px;
+   
+     }
+     .dropdown{
+        float: left;
+        overflow: hidden;
+        padding: 14px 16px;
+     }
+     .dropdown .down{
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: black;
+        background-color: inherit;
+        margin: 0;
+     }
+     .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color:inherit;
+     }
+     .dropdown-content a{
+       display: block;
+       float: none;
+       padding: 14px 16px;
+     }
+     .dropdown:hover .dropdown-content
+     {
+        display: block;
+     }
+    </style>
+</head>
+<body>
+   <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <div class="dropdown">
+        <button class="down">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="">Menu 1</a>
+            <a href="">Menu 2</a>
+            <a href="">Menu 3</a>
+            <a href="">Menu 4</a>   
+        </div>
+    </div>
+   </div>
+   
+</body>
+</html>
